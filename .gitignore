@@ -4,3 +4,4 @@ split_pdf
 compress_pdf
 .vscode
 *.pdf
+*.exe
