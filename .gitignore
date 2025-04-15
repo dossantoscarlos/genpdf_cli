@@ -5,3 +5,5 @@ compress_pdf
 .vscode
 *.pdf
 *.exe
+build
+pdf
