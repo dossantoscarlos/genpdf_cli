@@ -1,5 +1,5 @@
-./merge_pdf
-./pdf_extract
-./split_pdf
-./compress_pdf
-./vscode
+merge_pdf
+pdf_extract
+split_pdf
+compress_pdf
+.vscode
