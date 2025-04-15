@@ -3,3 +3,4 @@ pdf_extract
 split_pdf
 compress_pdf
 .vscode
+*.pdf
