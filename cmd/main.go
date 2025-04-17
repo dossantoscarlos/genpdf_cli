@@ -15,7 +15,7 @@ func main() {
 	var err error
 
 	input := flag.String("input", "", "Arquivo PDF de entrada (obrigatório)")
-	options := flag.String("option", "", "1:Extract PDF 2:Merge PDF 3:Compress PDF")
+	options := flag.String("option", "", "1:Extract PDF 2:Merge PDF 3:Compress PDF 4:Split PDF")
 	pages := flag.String("pages", "", "Páginas a extrair (ex: 1,2,5)")
 
 	flag.Parse()
