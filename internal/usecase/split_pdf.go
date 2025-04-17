@@ -12,9 +12,14 @@ import (
 func SplitPDF(params model.Pdf) ([]string, error) {
 	var err error
 
-	log.Default().Println(params.PageRange)
+	log.Default().Println("SplitPDF")
+
 	if len(params.PageRange) == 0 {
 		return nil, fmt.Errorf("Error ao extrair pagina")
+	}
+
+	if len(params.PageRange) == 1 && params.PageRange[0] == "all" {
+		params.PageRange = nil
 	}
 
 	err = api.ExtractPagesFile(
