@@ -7,3 +7,4 @@ compress_pdf
 *.exe
 build
 pdf
+*.log
