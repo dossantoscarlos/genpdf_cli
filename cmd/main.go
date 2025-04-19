@@ -21,7 +21,7 @@ func main() {
 	flag.Parse()
 
 	if *input == "" || *pages == "" {
-		fmt.Println("Uso: go run main.go --input arquivo.pdf --option 1 --pages 1,2,3")
+		fmt.Println("Uso: go run main.go --input arquivo.pdf --option 1 --pages 1,2,3 or all para todas as páginas")
 		flag.PrintDefaults()
 		return
 	}
